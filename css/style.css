@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0
+}
+
+#logo{
+	background-color: white;
+	padding-left: 25px;
+ 	padding-right: 10px;
+}
+
+#fontlogo{
+	font-size: 3em;
+}
+
+#task{
+	background-color: white;
+    padding-left: 36px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 55px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 5px;
+}
+
+#span{
+	background-color: rgb(59, 155, 245);
+	background-color: rgb(59, 155, 245);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+body{
+	background-color: rgb(231, 228, 228);
+}
+
