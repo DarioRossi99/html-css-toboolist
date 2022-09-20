@@ -4,10 +4,14 @@
 	padding: 0
 }
 
-#logo{
+/* id html */
+
+#logo_header {
 	background-color: white;
-	padding-left: 25px;
- 	padding-right: 10px;
+    padding-left: 25px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #fontlogo{
@@ -15,9 +19,14 @@
 	display: inline;
 }
 
+#logo_img {
+	float: left;
+	margin-right: 10px;
+}
+
 #task{
 	background-color: white;
-    padding-left: 36px;
+    padding-left: 70px;
     padding-right: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -39,19 +48,22 @@
 
 #list{
 	background-color: white;
-    padding-left: 36px;
+    padding-left: 70px;
     padding-right: 10px;
-    padding-top: 20px;
-    padding-bottom: 500px;
+    padding-top: 65px;
+    padding-bottom: 60px;
     margin-top: 5px;
     margin-left: 200px;
     margin-right: 200px;
+	margin-bottom: 30px;
     border-radius: 5px;
 }
 
-#colortext1{
-	background-color: rgb(59, 155, 245);
-    padding-left: 20px;
+
+
+.button-goals{
+	background-color: rgb(156, 114, 228);
+    padding-left: 15px;
     padding-right: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -60,9 +72,9 @@
     font-size: medium;
 }
 
-#colortext2{
-	background-color: rgb(153, 90, 189);
-    padding-left: 20px;
+.button-recruiting{
+	background-color: rgb(100, 192, 169);
+    padding-left: 15px;
     padding-right: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -71,20 +83,9 @@
     font-size: medium;
 }
 
-#colortext3{
-	background-color: rgb(46, 165, 99);
-    padding-left: 20px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 11px;
-    color: white;
-    font-size: medium;
-}
-
-#colortext4{
+.button-mobile{
 	background-color: rgb(252, 151, 0);
-    padding-left: 20px;
+    padding-left: 15px;
     padding-right: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -93,9 +94,9 @@
     font-size: medium;
 }
 
-#colortext5{
-	background-color: rgb(59, 155, 245);
-    padding-left: 20px;
+.button-web{
+	background-color: rgb(214, 59, 245);
+    padding-left: 15px;
     padding-right: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -104,9 +105,9 @@
     font-size: medium;
 }
 
-#colortext6{
-	background-color: rgb(153, 90, 189);
-    padding-left: 20px;
+.button-sale{
+	background-color: rgb(176, 201, 38);
+    padding-left: 15px;
     padding-right: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -115,20 +116,13 @@
     font-size: medium;
 }
 
-#colortext7{
-	background-color: rgb(46, 165, 99);
-    padding-left: 20px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 11px;
-    color: white;
-    font-size: medium;
-}
 
-#colortext8{
-	background-color: rgb(252, 151, 0);
-    padding-left: 20px;
+
+/* classi */
+
+.button-editorial{
+	background-color: rgb(69, 171, 234);
+    padding-left: 15px;
     padding-right: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -138,8 +132,8 @@
 }
 
 .main-button {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
 	border-radius: 5px;
@@ -147,6 +141,7 @@
     color: white;
     border: solid;
     border-color: rgb(59, 155, 245);
+	font-size: 1.2em;
 
 }
 
@@ -156,19 +151,47 @@
 
 .positive{
 	color: rgb(41, 206, 0);
-	border: 2px solid rgb(41, 206, 0);;
-	border-radius: 50%;
-	padding: 0px;
+    border: 2px solid rgb(41, 206, 0);
+    border-radius: 100%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: large;
 }
 
 .negative{
-	color: rgb(206, 0, 0);
-	border: 2px solid rgb(206, 0, 0);;
-	border-radius: 50%;
-	padding: 0px;
+	color: rgb(255, 0, 0);
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 100%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: large;
 }
+
+/* struttura */
 
 body{
-	background-color: rgb(231, 228, 228);
+	background-color: rgb(246, 248, 249);
+	font-family: Arial, Helvetica, sans-serif, sans-serif;
 }
 
+h2 {
+	font-size: 2em;
+    font-weight: 700;
+}
+
+h2 span {
+	font-size: 0.8em;
+}
+
+ul {
+	list-style: none;
+}
+
+ul li {
+	font-size: x-large;
+	margin-bottom: 30px;
+}
