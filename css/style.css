@@ -12,6 +12,7 @@
 
 #fontlogo{
 	font-size: 3em;
+	display: inline;
 }
 
 #task{
@@ -26,24 +27,10 @@
     border-radius: 5px;
 }
 
-#span{
-	background-color: rgb(59, 155, 245);
-	background-color: rgb(59, 155, 245);
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 5px;
-    color: white;
-}
+
 
 #section{
-    background-color: rgb(255, 255, 255);
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    border-radius: 5px;
+    background-color: rgb(255, 255, 255);        
     border-color: rgb(201, 201, 201);
     border: solid;
     margin-left: 10px;
@@ -106,8 +93,79 @@
     font-size: medium;
 }
 
+#colortext5{
+	background-color: rgb(59, 155, 245);
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 11px;
+    color: white;
+    font-size: medium;
+}
+
+#colortext6{
+	background-color: rgb(153, 90, 189);
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 11px;
+    color: white;
+    font-size: medium;
+}
+
+#colortext7{
+	background-color: rgb(46, 165, 99);
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 11px;
+    color: white;
+    font-size: medium;
+}
+
+#colortext8{
+	background-color: rgb(252, 151, 0);
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 11px;
+    color: white;
+    font-size: medium;
+}
+
+.main-button {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	border-radius: 5px;
+	background-color: rgb(59, 155, 245);
+    color: white;
+    border: solid;
+    border-color: rgb(59, 155, 245);
+
+}
+
 .newlist{
 	font-size: x-large;
+}
+
+.positive{
+	color: rgb(41, 206, 0);
+	border: 2px solid rgb(41, 206, 0);;
+	border-radius: 50%;
+	padding: 0px;
+}
+
+.negative{
+	color: rgb(206, 0, 0);
+	border: 2px solid rgb(206, 0, 0);;
+	border-radius: 50%;
+	padding: 0px;
 }
 
 body{
